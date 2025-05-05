@@ -2,6 +2,7 @@ import Home from "../pages/Home"
 import Actividades from "../pages/Actividades"
 import Consultas from "../pages/Consultas"
 import App from "../App"
+import Detalles from "../pages/Detalles"
 
 const routes = [
     {
@@ -20,6 +21,10 @@ const routes = [
                 path: '/Consultorias',
                 element: <Consultas/>,
             },
+            {
+                path:'/Detalle',
+                element: <Detalles/>
+            }
         ]
     }
 ]
